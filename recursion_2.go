@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func recursion2() {
+func Recursion2() {
 	x := 3
 	fun2(x)
 }

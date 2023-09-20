@@ -1,6 +1,8 @@
 package main
 
 func main() {
-	//recursion1()
-	recursion2()
+	//Recursion1()
+	//Recursion2()
+	//Recursion3()
+	TreeRecursion()
 }
