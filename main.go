@@ -5,5 +5,6 @@ func main() {
 	//Recursion2()
 	//Recursion3()
 	//TreeRecursion()
-	IndirectRecursion()
+	//IndirectRecursion()
+	NestedRecursion()
 }
