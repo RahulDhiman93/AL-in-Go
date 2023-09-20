@@ -7,7 +7,7 @@ var x = 0
 func Recursion3() {
 	var r int
 	r = fun3(5)
-	fmt.Println(r)
+	fmt.Print(r, " ")
 }
 
 func fun3(n int) int {

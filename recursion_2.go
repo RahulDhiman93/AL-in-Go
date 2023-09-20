@@ -10,6 +10,6 @@ func Recursion2() {
 func fun2(n int) {
 	if n > 0 {
 		fun2(n - 1)
-		fmt.Println(n)
+		fmt.Print(n, " ")
 	}
 }

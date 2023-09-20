@@ -9,7 +9,7 @@ func Recursion1() {
 
 func fun(n int) {
 	if n > 0 {
-		fmt.Println(n)
+		fmt.Print(n, " ")
 		fun(n - 1)
 	}
 }

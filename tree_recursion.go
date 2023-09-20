@@ -9,7 +9,7 @@ func TreeRecursion() {
 
 func treeFun(n int) {
 	if n > 0 {
-		fmt.Println(n)
+		fmt.Print(n, " ")
 		treeFun(n - 1)
 		treeFun(n - 1)
 	}
