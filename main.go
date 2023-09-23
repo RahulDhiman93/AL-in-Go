@@ -7,5 +7,7 @@ func main() {
 	//TreeRecursion()
 	//IndirectRecursion()
 	//NestedRecursion()
-	SumOfNRecursion()
+	//SumOfNRecursion()
+	//FactorialRecursion()
+	PowerRecursion()
 }
