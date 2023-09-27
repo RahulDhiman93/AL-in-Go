@@ -9,5 +9,6 @@ func main() {
 	//NestedRecursion()
 	//SumOfNRecursion()
 	//FactorialRecursion()
-	PowerRecursion()
+	//PowerRecursion()
+	TaylorSeriesRecursion()
 }
