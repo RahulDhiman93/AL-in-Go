@@ -11,5 +11,6 @@ func main() {
 	//FactorialRecursion()
 	//PowerRecursion()
 	//TaylorSeriesRecursion()
-	FibonacciSeries()
+	//FibonacciSeries()
+	TowerOfHanoi()
 }
