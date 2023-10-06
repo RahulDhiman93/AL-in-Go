@@ -1,16 +1,25 @@
 package main
 
+import (
+	"alingo/Recursion"
+	_ "alingo/Recursion"
+)
+
 func main() {
-	//Recursion1()
-	//Recursion2()
-	//Recursion3()
-	//TreeRecursion()
-	//IndirectRecursion()
-	//NestedRecursion()
-	//SumOfNRecursion()
-	//FactorialRecursion()
-	//PowerRecursion()
-	//TaylorSeriesRecursion()
-	//FibonacciSeries()
-	TowerOfHanoi()
+
+	//<- Recursion Methods ->//
+
+	//Recursion.Recursion1()
+	//Recursion.Recursion2()
+	//Recursion.Recursion3()
+	//Recursion.TreeRecursion()
+	//Recursion.IndirectRecursion()
+	//Recursion.NestedRecursion()
+	//Recursion.SumOfNRecursion()
+	//Recursion.FactorialRecursion()
+	//Recursion.PowerRecursion()
+	//Recursion.TaylorSeriesRecursion()
+	//Recursion.FibonacciSeries()
+	Recursion.TowerOfHanoi()
+
 }

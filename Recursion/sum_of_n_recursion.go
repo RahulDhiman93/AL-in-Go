@@ -1,4 +1,4 @@
-package main
+package Recursion
 
 import "fmt"
 
