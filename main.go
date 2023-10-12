@@ -1,13 +1,12 @@
 package main
 
 import (
-	"alingo/Recursion"
-	_ "alingo/Recursion"
+	"alingo/Array"
 )
 
 func main() {
 
-	//<- Recursion Methods ->//
+	//<- Recursion Examples ->//
 
 	//Recursion.Recursion1()
 	//Recursion.Recursion2()
@@ -20,6 +19,8 @@ func main() {
 	//Recursion.PowerRecursion()
 	//Recursion.TaylorSeriesRecursion()
 	//Recursion.FibonacciSeries()
-	Recursion.TowerOfHanoi()
+	//Recursion.TowerOfHanoi()
 
+	//<- Array Examples ->//
+	Array.LinearSearchArray()
 }
