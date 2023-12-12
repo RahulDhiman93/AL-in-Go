@@ -1,6 +1,6 @@
 package main
 
-import "alingo/Array"
+import "alingo/Strings"
 
 func main() {
 
@@ -20,6 +20,12 @@ func main() {
 	//Recursion.TowerOfHanoi()
 
 	//<- Array Examples ->//
+
 	//Array.LinearSearchArray()
-	Array.BinarySearchArray()
+	//Array.BinarySearchArray()
+	//Array.ReverseArray()
+
+	//<- String Examples ->//
+	Strings.Permute()
+
 }
