@@ -1,6 +1,6 @@
 package main
 
-import "alingo/Strings"
+import "alingo/Matrices"
 
 func main() {
 
@@ -26,6 +26,10 @@ func main() {
 	//Array.ReverseArray()
 
 	//<- String Examples ->//
-	Strings.Permute()
 
+	//Strings.Permute()
+
+	//<- Matrices Examples ->//
+
+	Matrices.DiagonalMatrix()
 }
