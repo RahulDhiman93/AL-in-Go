@@ -2,6 +2,7 @@ package Matrices
 
 import (
 	"fmt"
+	"log"
 )
 
 //USING 1D ARRAY FOR 2D DIAGONAL MATRIX TO NOT DO REDUNDANT WORK FOR 0's
@@ -12,14 +13,26 @@ type matrix struct {
 }
 
 func DiagonalMatrix() {
-	size := 4
+	var size int
+	fmt.Print("Enter Matrix Size: ")
+	_, err := fmt.Scanf("%d", &size)
+	if err != nil {
+		log.Println(err)
+	}
 	mat := matrix{n: size}
 	mat.arr = make([]int, size)
-	set(&mat, 0, 0, 5)
-	set(&mat, 1, 1, 7)
-	set(&mat, 2, 2, 9)
-	set(&mat, 3, 3, 8)
-	fmt.Println("Value at (2,2): ", get(&mat, 2, 2))
+	i := 0
+	for i < size {
+		var x int
+		fmt.Printf("Enter Value at (%d, %d): ", i, i)
+		_, err := fmt.Scanf("%d", &x)
+		if err != nil {
+			log.Println(err)
+		}
+		set(&mat, i, i, x)
+		i++
+	}
+	//fmt.Println("Value at (2,2): ", get(&mat, 2, 2))
 	display(mat)
 }
 
