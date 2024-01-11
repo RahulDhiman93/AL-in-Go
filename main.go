@@ -1,6 +1,6 @@
 package main
 
-import "alingo/Matrices"
+import linkedlist "alingo/LinkedList"
 
 func main() {
 
@@ -31,5 +31,10 @@ func main() {
 
 	//<- Matrices Examples ->//
 
-	Matrices.DiagonalMatrix()
+	//Matrices.DiagonalMatrix()
+
+	//<- LinkedList Examples ->//
+
+	linkedlist.ListTraverse()
+
 }

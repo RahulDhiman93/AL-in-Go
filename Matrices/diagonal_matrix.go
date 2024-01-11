@@ -29,27 +29,29 @@ func DiagonalMatrix() {
 		if err != nil {
 			log.Println(err)
 		}
-		set(&mat, i, i, x)
+		mat.set(i, i, x)
 		i++
 	}
-	//fmt.Println("Value at (2,2): ", get(&mat, 2, 2))
-	display(mat)
+	if len(mat.arr) >= 3 {
+		fmt.Println("Value at (2,2): ", mat.get(2, 2))
+	}
+	mat.display()
 }
 
-func set(mat *matrix, i, j, x int) {
+func (mat *matrix) set(i, j, x int) {
 	if i == j {
 		mat.arr[i] = x
 	}
 }
 
-func get(mat *matrix, i, j int) int {
+func (mat *matrix) get(i, j int) int {
 	if i == j {
 		return mat.arr[i]
 	}
 	return 0
 }
 
-func display(mat matrix) {
+func (mat *matrix) display() {
 	for i := 0; i < mat.n; i++ {
 		for j := 0; j < mat.n; j++ {
 			if i == j {
