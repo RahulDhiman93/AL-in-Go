@@ -36,5 +36,6 @@ func main() {
 	//<- LinkedList Examples ->//
 
 	//linkedlist.ListTraverse(false)
-	linkedlist.ListTraverse(true)
+	//linkedlist.ListTraverse(true)
+	linkedlist.ListLinearSearch()
 }
