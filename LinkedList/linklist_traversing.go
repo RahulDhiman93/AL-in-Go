@@ -21,15 +21,26 @@ func createLL(arr []int) *Node {
 	return &first
 }
 
-func ListTraverse() {
+func ListTraverse(reversed bool) {
 	arr := []int{3, 5, 7, 10, 15}
 	node := createLL(arr)
-	traverse(node)
+	if reversed {
+		rtraverse(node)
+	} else {
+		traverse(node)
+	}
 }
 
 func traverse(p *Node) {
 	for p != nil {
 		fmt.Println(p.data)
 		p = p.next
+	}
+}
+
+func rtraverse(p *Node) {
+	if p != nil {
+		rtraverse(p.next)
+		fmt.Println(p.data)
 	}
 }
